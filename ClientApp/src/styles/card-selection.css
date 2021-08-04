@@ -1,0 +1,23 @@
+﻿.card-selection-box {
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    margin: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    position: relative;
+    top: 50%;
+    transition: 0.3s;
+}
+/* todo: make into actual grid */
+.card-selection-grid {
+    padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-selection-content {
+    padding: 15px 15px 15px 15px;
+}
